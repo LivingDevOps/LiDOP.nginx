@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM alpine:3.9
 
-ENV NGINX_VERSION 1.12.1
+ENV NGINX_VERSION 1.15.8
 
 # Install required software
 RUN \
